@@ -122,7 +122,7 @@ SET
     first_name = 'Joe',
     emp_no = 10
 WHERE
-    emp_no = 2;
+    emp_no = 3;
 
 -- Q : Inserer un nouvel employe ?
 -- R : On vérifie que MySQL garde le bon ordre des PK.
@@ -153,7 +153,8 @@ INSERT INTO tasks(title ,start_date, end_date)
 VALUES('Learn MySQL NOT NULL constraint', Now(), Now()),
       ('Check and update NOT NULL constraint to your database', NOW(), NULL);
 
--- Ds l'exemple, la valeur par defaut pr la colonne 'quantity' est 0. Parce qu'au moment où vs ajouter une ligne ds la table 'inventory', la valeur de la quantity est 0, mais not NULL.
+-- Ds l'exemple, la valeur par defaut pr la colonne 'quantity' est 0. 
+-- Parce qu'au moment où vs ajouter une ligne ds la table 'inventory', la valeur de la quantity est 0, mais not NULL.
 
 -- Q : Quelles sont les tasks dont la date de fin est manquantes ?
 
